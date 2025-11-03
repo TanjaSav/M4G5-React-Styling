@@ -1,4 +1,4 @@
-# React + Vite + TypeScript + Tailwind 
+# React + Vite + TypeScript + Tailwind + ShadCN UI
 ## About
 
 In this project, I built the main page of a mobile grocery shopping app using React, Vite, TypeScript, Tailwind CSS, and the ShadCN UI component library.
