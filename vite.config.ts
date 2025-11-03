@@ -5,11 +5,12 @@ import path from "path"
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/',
+  // base: '/',
   plugins: [
     react(), 
-    tailwindcss()
+    tailwindcss(),
   ],
+  base: "/M4G5-React-Styling/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
