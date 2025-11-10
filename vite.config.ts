@@ -1,19 +1,18 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
-import path from "path"
+import path from 'path'
 
-// https://vite.dev/config/
 export default defineConfig({
-  // base: '/',
+  // base: mode === 'production' ? '/M4G5-React-Styling/' : '/',
+  base:'/M4G5-React-Styling/',
   plugins: [
-    react(), 
+    react(),
     tailwindcss(),
   ],
-  base: "/M4G5-React-Styling/",
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "./src"),
+      '@': path.resolve(__dirname, './src'),
     },
-  }
+  },
 })
